@@ -3,13 +3,75 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #fff3e3;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(26, 24, 24);
+}
+a {
+    text-decoration: none;
+    background-color: #ffffff00;
+    color: rgb(26, 24, 24);
 }
 .container {
-    width: 1440px;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
 }
 .start {
+    //position: absolute;
     background-image: url('../img/main.png');
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 800px;
+    &_text {
+        position: absolute;
+        top: 35%;
+        left: 3%;
+        background-color: #ffffff00;
+        font-size: 57px;
+        font-weight: 700;
+        max-width: 420px;
+    }
+}
+.nav {
+    //position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    z-index: 100;
+    background-color: #ff000000;
+    .logo {
+        background-color: #ff000000;
+        img {
+            background-color: #ff000000;
+        }
+    }
+    .menu {
+        display: flex;
+        background-color: #ff000000;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 20px;
+        padding: 15px 0;
+        &_shop, &_links {
+            display: flex;
+            list-style-type: none;
+            background-color: #ff000000;
+            li {
+                background-color: #ff000000;
+                padding-left: 16px;
+                text-transform: lowercase;
+                font-size: 15px;
+                a:hover {
+                    color: #4e2600;
+                    font-size: 15.5px;
+                    transition: 0.5s all;
+                }
+            }
+
+        }
+    }
 }
