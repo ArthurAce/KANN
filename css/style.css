@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #f5f0e9;
+  background-color: rgba(240, 240, 240, 0.631372549);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -84,8 +84,8 @@ a {
   font-weight: 400;
 }
 .nav .menu_shop li a:hover, .nav .menu_links li a:hover {
-  color: #4e2600;
-  font-size: 15.5px;
+  color: #ffffff;
+  font-size: 15.1px;
   -webkit-transition: 0.5s all;
   transition: 0.5s all;
 }
